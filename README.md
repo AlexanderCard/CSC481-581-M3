@@ -40,7 +40,18 @@ cd your-repo-name
 ```
 
 ## 4. Tasks
-In this exercise you will need to combine this exercise with the previous exercise to spawn a static platform which does not move. You will also need to spawn a box which is affected by gravity through your physics system. This box should be spawned by a key press which is detected using the input system and SDL_GetKeyboardState. The code present is a sample, you are not required to adhere to the code provided.
+In this exercise you will need to combine this exercise with the previous exercise to perform the following tasks:
+- Create a stationary platform
+  - Texture the stationary platform using an asset file (currently brick.png)
+  - Enable collisions for the stationary platform
+- Create a moving entity
+  - This entity can be an object of your choice
+  - This entity should spawn on a button press
+    - The button press should be read through your input manager
+  - This entity should be affected by gravity
+    - Gravity should be applied through your physics system
+    - You should demonstrate gravity (by falling or jumping)
+  - This entity should collide with the stationary platform
 
 
 ## 5. Building the Project
